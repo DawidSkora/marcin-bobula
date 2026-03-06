@@ -53,7 +53,7 @@ export default function Contact() {
         <input
           name="phone"
           placeholder="Telefon"
-          value={formData.company}
+          value={formData.phone}
           onChange={handleChange}
           className="bg-gray-700 rounded px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
         />
