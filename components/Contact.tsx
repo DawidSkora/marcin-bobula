@@ -35,6 +35,24 @@ export default function Contact() {
   return (
     <section id="kontakt" className="bg-gray-800 text-white py-20 px-6">
       <h2 className="text-3xl font-bold text-center mb-12">Kontakt</h2>
+      <div className="flex flex-col md:flex-row justify-center gap-12 mb-12 text-center">
+  <div>
+    <p className="text-orange-500 font-bold mb-1">Telefon</p>
+    <a href={`tel:+48536997603`} className="text-gray-300 hover:text-white">
+      +48 536 997 603
+    </a>
+  </div>
+  <div>
+    <p className="text-orange-500 font-bold mb-1">Email</p>
+    <a href={`mailto:marcinbobula98@gmail.com`} className="text-gray-300 hover:text-white">
+      marcinbobula98@gmail.com
+    </a>
+  </div>
+  <div>
+    <p className="text-orange-500 font-bold mb-1">Region</p>
+    <p className="text-gray-300">Cała Polska</p>
+  </div>
+</div>
       <div className="max-w-xl mx-auto flex flex-col gap-4">
         <input
           name="name"
