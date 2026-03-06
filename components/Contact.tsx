@@ -38,14 +38,14 @@ export default function Contact() {
       <div className="flex flex-col md:flex-row justify-center gap-12 mb-12 text-center">
   <div>
     <p className="text-orange-500 font-bold mb-1">Telefon</p>
-    <a href={`tel:+48536997603`} className="text-gray-300 hover:text-white">
-      +48 536 997 603
+    <a href={`tel:+48123123123`} className="text-gray-300 hover:text-white">
+      +48 123 123 123
     </a>
   </div>
   <div>
     <p className="text-orange-500 font-bold mb-1">Email</p>
-    <a href={`mailto:marcinbobula98@gmail.com`} className="text-gray-300 hover:text-white">
-      marcinbobula98@gmail.com
+    <a href={`mailto:info@marcinbobula.pl`} className="text-gray-300 hover:text-white">
+      info@marcinbobula.pl
     </a>
   </div>
   <div>

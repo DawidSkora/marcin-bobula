@@ -8,12 +8,12 @@ export default function About() {
         <div>
           <h2 className="text-3xl font-bold mb-4">O mnie</h2>
           <p className="text-gray-400 text-lg leading-relaxed mb-4">
-            Marcin Bobula. Pięć lat w branży hydrauliki siłowej i kurwa, jakie to były lata. Podczas gdy inni sprzedawcy siedzieli na tyłku i pili kawę, Bobula przemierzał Polskę wszerz i wzdłuż, dobierając elementy hydrauliczne z precyzją snajpera i refleksem kota. Pompa? Dobrana. Siłownik? Dobrany. Zawór który cholera wie skąd — też dobrany, i to na wczoraj.
-            Mówią że hydraulika siłowa to nudna branża. Ci ludzie nigdy nie widzieli Bobuli przy pracy. 
+            Specjalista z wieloletnim doświadczeniem w branży hydrauliki siłowej. 
+            Pomagam firmom dobrać, uruchomić i utrzymać sprzęt hydrauliczny dopasowany do ich potrzeb.
           </p>
           <p className="text-gray-400 text-lg leading-relaxed">
-            Gdy inni się poddają, gdy ciśnienie spada a uszczelki lecą — on wkracza, ocenia sytuację jednym spojrzeniem i mówi: "znam ten typ awarii, naprawiałem gorsze rzeczy o trzeciej w nocy w deszczu". Bo naprawiał.
-            Sprzedaż, doradztwo, serwis, naprawa — Bobula ogarnie wszystko. A jak nie ogarnie, to i tak powie że ogarnie, po czym ogarnie. Taki już jest. Niezniszczalny. Nieugięty. Hydrauliczny.
+            Działam na terenie całej Polski, współpracując zarówno z małymi 
+            przedsiębiorstwami jak i dużymi zakładami przemysłowymi.
           </p>
           <div className="flex gap-8 mt-8">
             <div>
