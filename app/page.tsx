@@ -4,6 +4,7 @@ import Services from "@/components/Services"
 import About from "@/components/About"
 import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
+import FadeIn from "@/components/FadeIn"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -27,8 +28,8 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Services />
-        <About />
-        <Contact />
+        <FadeIn><About /></FadeIn>
+        <FadeIn><Contact /></FadeIn>
         <Footer />
       </main>
     </>

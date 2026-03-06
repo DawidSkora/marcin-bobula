@@ -1,11 +1,12 @@
 export default function Hero() {
   return (
     <section
-      className="relative text-white min-h-screen flex flex-col justify-center items-center text-center px-6"
+      className="relative text-white min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20"
       style={{
         backgroundImage: "url('/hero.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundAttachment: "fixed",
       }}
     >
       {/* Ciemna nakładka żeby tekst był czytelny */}
