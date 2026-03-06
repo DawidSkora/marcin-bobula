@@ -1,7 +1,15 @@
+import Navbar from "@/components/Navbar"
+import Hero from "@/components/Hero"
+import Services from "@/components/Services"
+import Contact from "@/components/Contact"
+
 export default function Home() {
   return (
     <main>
-      <h1>Strona w budowie</h1>
+      <Navbar />
+      <Hero />
+      <Services />
+      <Contact />
     </main>
   )
 }
